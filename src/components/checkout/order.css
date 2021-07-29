@@ -1,0 +1,38 @@
+.order{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: flex-start;
+}
+.order > img {
+    width: 30%;
+    height: auto;
+}
+.order> div > h1{
+    margin: 10px;
+    font-weight: 400;
+}
+.order> div > h2, .order> div > h3{
+    margin: 10px;
+    font-weight: 300;
+}
+.order> div > h3 > button{
+    background: #f0c14b;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    font-weight: 400;
+    border: 1px solid;
+    font-weight: bolder;
+    margin: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+
+@media screen and (max-width: 768px){
+    .order{
+        flex-direction: column;
+        text-align: center;
+    }
+}
